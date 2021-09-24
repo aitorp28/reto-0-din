@@ -10,5 +10,10 @@ package holamundomvc.controller;
  * @author aitor
  */
 public interface Model {
-  void  getGreeting();
+
+    /**
+     *
+     * @return
+     */
+    String  getGreeting();
 }

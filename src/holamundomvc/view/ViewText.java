@@ -5,10 +5,17 @@
  */
 package holamundomvc.view;
 
+import holamundomvc.controller.View;
+
 /**
  *
  * @author aitor
  */
-public class ViewText {
+public class ViewText implements View{
+
+    @Override
+    public void showGreeting(String greeting) {
+            System.out.println(greeting);
+        }
     
 }

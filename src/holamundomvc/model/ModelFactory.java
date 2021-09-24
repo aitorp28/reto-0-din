@@ -5,10 +5,22 @@
  */
 package holamundomvc.model;
 
+import holamundomvc.controller.Model;
+import java.util.ResourceBundle;
+
 /**
  *
  * @author aitor
  */
 public class ModelFactory {
+    
+    public Model getModel(){
+        
+        private String type = ResourceBundle.getBundle("")
+        
+        
+        
+        return model;
+    }
     
 }
