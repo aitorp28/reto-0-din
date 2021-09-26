@@ -6,33 +6,27 @@
 package holamundomvc.model;
 
 import holamundomvc.controller.Model;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.IOException;
-import java.util.Properties;
-import java.util.logging.Level;
-import java.util.logging.Logger;
+import java.util.ResourceBundle;
+
 
 /**
- *
+ * Esta clase se 
  * @author aitor
  */
 public class ModelFile implements Model{
 
-        Properties properties = new Properties();
+        
         
     /**
      *
      * @return
      */
+  
     @Override
     public String getGreeting() {
-        try {
-            properties.load(new FileReader("text.properties"));
-        } catch (IOException ex) {
-            Logger.getLogger(ModelFile.class.getName()).log(Level.SEVERE, null, ex);
-        }
-        return properties.getProperty("Saludo");
+         String greeting = ResourceBundle.getBundle("holamundomvc.properties.text").getString("saludo");
+        
+        return greeting;
         
     }
     

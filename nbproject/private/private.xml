@@ -3,8 +3,21 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/aitor/Documentos/NetBeansProjects/reto-0-din/src/holamundomvc/controller/View.java</file>
-            <file>file:/C:/Users/aitor/Documentos/NetBeansProjects/reto-0-din/src/holamundomvc/controller/package-info.java</file>
+            <file>file:/C:/Users/aitor/Documents/NetBeansProjects/reto-0-din/src/holamundomvc/properties/config.properties</file>
+            <file>file:/C:/Users/aitor/Documents/NetBeansProjects/reto-0-din/src/holamundomvc/properties/model.properties</file>
+            <file>file:/C:/Users/aitor/Documents/NetBeansProjects/reto-0-din/src/holamundomvc/model/ModelFile.java</file>
+            <file>file:/C:/Users/aitor/Documents/NetBeansProjects/reto-0-din/src/holamundomvc/view/ViewText.java</file>
+            <file>file:/C:/Users/aitor/Documents/NetBeansProjects/reto-0-din/src/holamundomvc/view/ViewSwing.java</file>
+            <file>file:/C:/Users/aitor/Documents/NetBeansProjects/reto-0-din/src/holamundomvc/Application.java</file>
+            <file>file:/C:/Users/aitor/Documents/NetBeansProjects/reto-0-din/src/holamundomvc/controller/Controller.java</file>
+            <file>file:/C:/Users/aitor/Documents/NetBeansProjects/reto-0-din/src/holamundomvc/controller/Model.java</file>
+            <file>file:/C:/Users/aitor/Documents/NetBeansProjects/reto-0-din/src/holamundomvc/model/ModelBD.java</file>
+            <file>file:/C:/Users/aitor/Documents/NetBeansProjects/reto-0-din/src/holamundomvc/controller/ConnectionOpenClose.java</file>
+            <file>file:/C:/Users/aitor/Documents/NetBeansProjects/reto-0-din/src/holamundomvc/properties/view.properties</file>
+            <file>file:/C:/Users/aitor/Documents/NetBeansProjects/reto-0-din/src/holamundomvc/view/ViewFactory.java</file>
+            <file>file:/C:/Users/aitor/Documents/NetBeansProjects/reto-0-din/src/holamundomvc/properties/text.properties</file>
+            <file>file:/C:/Users/aitor/Documents/NetBeansProjects/reto-0-din/src/holamundomvc/model/ModelFactory.java</file>
+            <file>file:/C:/Users/aitor/Documents/NetBeansProjects/reto-0-din/src/exception/ConnectException.java</file>
         </group>
     </open-files>
 </project-private>

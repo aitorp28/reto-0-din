@@ -5,9 +5,12 @@
  */
 package holamundomvc;
 
+import exception.*;
 import holamundomvc.controller.Controller;
 import holamundomvc.controller.Model;
 import holamundomvc.controller.View;
+import holamundomvc.model.ModelFactory;
+import holamundomvc.view.ViewFactory;
 import jdk.nashorn.internal.runtime.regexp.JoniRegExp.Factory;
 
 /**
@@ -19,14 +22,14 @@ public class Application {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
+    public static void main(String[] args) throws ConnectException, ReadException  {
         // TODO code application logic here
-        Factory modelFactory = new Factory();
-        Factory viewFactory = new Factory();
-        Model model = new modelFactory.getModel();
-        View view = new View();
+        ModelFactory modelFactory = new ModelFactory();
+        ViewFactory viewFactory = new ViewFactory();
+        Model model =  modelFactory.getModel();
+        View view = viewFactory.getView();
         Controller controller = new Controller();
-        controller.run();
+        controller.run(model,view);
     }
     
 }

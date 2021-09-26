@@ -5,8 +5,11 @@
  */
 package holamundomvc.controller;
 
+import exception.*;
+
+
 /**
- *
+ *  Esta es la interfaz contiene las funciones que se implementan al modelo
  * @author aitor
  */
 public interface Model {
@@ -14,6 +17,7 @@ public interface Model {
     /**
      *
      * @return
+     * @throws exception.ConnectException
      */
-    String  getGreeting();
+   public String  getGreeting() throws ConnectException,ReadException;
 }

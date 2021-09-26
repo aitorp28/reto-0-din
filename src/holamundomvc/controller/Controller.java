@@ -5,18 +5,20 @@
  */
 package holamundomvc.controller;
 
-import sun.util.calendar.CalendarSystem;
+import exception.*;
+
 
 /**
- *
+ * Este es el controlador de mi aplicacion
  * @author aitor
  */
 public class Controller {
     
-        Model model = null ;
-        View view = null;
-        
-    public void run(){
+       
+        /**
+         *
+         */
+    public void run(Model model,View view) throws ConnectException, ReadException{
         
         String greeting = model.getGreeting();
         view.showGreeting(greeting);
