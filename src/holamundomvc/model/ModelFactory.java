@@ -9,7 +9,11 @@ import holamundomvc.controller.Model;
 import java.util.ResourceBundle;
 
 /**
- * Esta es la factoria del modelo se encarga de mandar el 
+ * 
+ * Esta es la factoria del modelo se encarga de mandar el modelo seleccionado
+ * en el archivo de configuracion.
+ * Esta clase es llamada por la aplicacion.
+ * 
  * @author aitor
  */
 public class ModelFactory {
@@ -18,6 +22,10 @@ public class ModelFactory {
         final private String BD = "ModelBD";
         final private String File = "ModelFile";
     
+    /**
+     * Este metodo comprueba que modelo hemos seleccionado.
+     * @return devuelve un modelo a la aplicacion.
+     */
     public Model getModel(){
         Model model = null;
         switch (type){

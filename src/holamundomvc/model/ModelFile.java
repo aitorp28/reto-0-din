@@ -10,16 +10,15 @@ import java.util.ResourceBundle;
 
 
 /**
- * Esta clase se 
+ * Esta clase se implementa de Model y contiene los metodos de para recoger 
+ * el texto desde un archivo.
  * @author aitor
  */
 public class ModelFile implements Model{
-
-        
-        
+ 
     /**
-     *
-     * @return
+     * Este metodo recoge un String de un archivo.
+     * @return devuelve el String al Controller.
      */
   
     @Override

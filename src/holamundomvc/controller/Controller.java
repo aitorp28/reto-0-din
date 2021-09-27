@@ -16,7 +16,12 @@ public class Controller {
     
        
         /**
-         *
+         * Este metodo se encarga de lanzar el saludo recibiendo el Model y la
+         * View enviadas desde las Factory de Model y View.
+         * @param model
+         * @param view
+         * @throws ConnectException
+         * @throws ReadException 
          */
     public void run(Model model,View view) throws ConnectException, ReadException{
         

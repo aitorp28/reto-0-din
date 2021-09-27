@@ -14,7 +14,8 @@ import java.sql.ResultSet;
 
 
 /**
- *
+ * Esta clase se implementa de Model y contiene los metodos de para recoger 
+ * el texto desde una base de datos.
  * @author aitor
  */
 public class ModelBD implements Model{
@@ -24,6 +25,13 @@ public class ModelBD implements Model{
     private PreparedStatement sentencia;
     private String saludo="SELECT * FROM greetings";
     
+    /**
+     * Este metodo recoge de una base de datos un String.
+     *
+     * @return al Controller
+     * @throws ConnectException
+     * @throws ReadException 
+     */
     @Override
     public String getGreeting() throws ConnectException,ReadException {
         String greeting=null;
