@@ -21,6 +21,8 @@ public class Application {
 
     /**
      * @param args the command line arguments
+     * @throws exception.ConnectException Excepcion para errores en conexion
+     * @throws exception.ReadException Excepcion para errores en lectura
      */
     public static void main(String[] args) throws ConnectException, ReadException  {
         // TODO code application logic here

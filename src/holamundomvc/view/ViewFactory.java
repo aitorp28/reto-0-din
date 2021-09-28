@@ -9,7 +9,9 @@ import holamundomvc.controller.View;
 import java.util.ResourceBundle;
 
 /**
- *
+ * Esta es la factoria de la vista se encarga de mandar el modelo seleccionado
+ * en el archivo de configuracion.
+ * Esta clase es llamada por la aplicacion.
  * @author aitor
  */
 public class ViewFactory {
@@ -32,7 +34,7 @@ public class ViewFactory {
             }
             break;
              case JAVAFX:{
-                view = new ViewJavaFX(); 
+               // view = new ViewJavaFX(); 
             }
             break;
         }

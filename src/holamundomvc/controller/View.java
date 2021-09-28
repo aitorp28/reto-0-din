@@ -10,6 +10,7 @@ package holamundomvc.controller;
  * @author aitor
  */
 public interface View {
+    
     /**
      * 
      * @param greeting Muestra un saludo tipo texto

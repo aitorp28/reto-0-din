@@ -43,7 +43,7 @@ public class ConnectionOpenClose {
         /**
          * Este metodo se encarga de abrir la conexion a la base de datos.
          * @return devuelve la conexion de la base de datos.
-         * @throws ConnectException 
+         * @throws ConnectException Excepcion para errores en conexion
          */
 	public Connection openConnection() throws ConnectException {
 
@@ -57,9 +57,9 @@ public class ConnectionOpenClose {
 		return con;
 	}
         /**
-         *  Este metodo se encarga de cerrar la conexion a la base de datos.
-         * @param stmt
-         * @param con
+         * Este metodo se encarga de cerrar la conexion a la base de datos.
+         * @param stmt 
+         * @param con 
          * @throws ConnectException 
          */
 	public void closeConnection(PreparedStatement stmt, Connection con) throws ConnectException {

@@ -29,8 +29,8 @@ public class ModelBD implements Model{
      * Este metodo recoge de una base de datos un String.
      *
      * @return al Controller
-     * @throws ConnectException
-     * @throws ReadException 
+     * @throws ConnectException Error de conexion con base de datos
+     * @throws ReadException Error de lectura de la base de datos
      */
     @Override
     public String getGreeting() throws ConnectException,ReadException {
