@@ -5,30 +5,28 @@
  */
 package holamundomvc.model;
 
+import exception.ConnectException;
+import exception.ReadException;
 import org.junit.Test;
 import static org.junit.Assert.*;
-import org.junit.Ignore;
 
 /**
  *
  * @author aitor
  */
-public class ModelFileTest {
-    
-    private ModelFile file = new ModelFile();
-  
-     @Test
-    public void testModelFile() {
-       
+public class ModelBDTest {
+   private ModelBD baseData = new ModelBD();
+    public ModelBDTest() {
     }
-      @Test
-    public void testGetGreeting() {
+    @Test
+    public void testGetGreeting() throws ConnectException, ReadException {
         //Create object for testing
         
         //Call getGreeting method
         String greeting= "Hola Mundo";
-        String testGreeting = file.getGreeting();
+        String testGreeting = baseData.getGreeting();
         
-        assertEquals("Error al cargar saludo desde el archivo",greeting,testGreeting);
+        assertEquals("Error al cargar saludo desde la base de datos",greeting,testGreeting);
     }
 }
+

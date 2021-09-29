@@ -5,10 +5,38 @@
  */
 package holamundomvc.view;
 
+import holamundomvc.Application;
+import holamundomvc.controller.View;
+import javafx.scene.Group;
+import javafx.scene.Scene;
+import javafx.scene.control.Label;
+import javafx.stage.Stage;
+
+
 /**
  *
  * @author aitor
  */
-public class ViewJavaFX {
+public class ViewJavaFX extends Application implements View{
+
+    @Override
+    public void showGreeting(String greeting) {
+        String[] parameters= new String [1];
+        parameters[0] = greeting;
+        launch(parameters);
+    }
+    public void start(Stage primaryStage) {
+        Label text = new Label(getParameters().getUnnamed().get(0));
+        text.setFont(new Font(40));
+        Scene scene = new Scene(new Group(text));
+        primaryStage.setTitle(getParameters().getUnnamed().get(0));
+        primaryStage.setScene(scene);
+        primaryStage.sizeToScene();
+        primaryStage.show();
+        
+        
+        
+    
+    }
     
 }

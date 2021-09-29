@@ -32,7 +32,7 @@ public class ConnectionOpenClose {
          * 
          * Este metodo recoge los parametros de un archivo de configuracion 
          * para conectarmos a la base de datos.
-         * @autor aitor
+         * @author aitor
          */
 	public ConnectionOpenClose() {
 		configFile = ResourceBundle.getBundle("holamundomvc.properties.config");
@@ -43,7 +43,7 @@ public class ConnectionOpenClose {
         /**
          * Este metodo se encarga de abrir la conexion a la base de datos.
          * @return devuelve la conexion de la base de datos.
-         * @throws ConnectException Excepcion para errores en conexion
+         * @throws ConnectException Error de conexion con base de datos
          */
 	public Connection openConnection() throws ConnectException {
 
@@ -58,9 +58,9 @@ public class ConnectionOpenClose {
 	}
         /**
          * Este metodo se encarga de cerrar la conexion a la base de datos.
-         * @param stmt 
-         * @param con 
-         * @throws ConnectException 
+         * @param stmt Consulta SQL lanzada 
+         * @param con Conexion a base de datos que se desea cerrar
+         * @throws ConnectException Controla las excepciones de conexion
          */
 	public void closeConnection(PreparedStatement stmt, Connection con) throws ConnectException {
 

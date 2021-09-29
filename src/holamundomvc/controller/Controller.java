@@ -18,10 +18,10 @@ public class Controller {
         /**
          * Este metodo se encarga de lanzar el saludo recibiendo el Model y la
          * View enviadas desde las Factory de Model y View.
-         * @param model
-         * @param view
-         * @throws ConnectException
-         * @throws ReadException 
+         * @param model Recibe un modelo
+         * @param view Recibe una vista
+         * @throws ConnectException Error de conexion con base de datos
+         * @throws ReadException Error de lectura con base de datos
          */
     public void run(Model model,View view) throws ConnectException, ReadException{
         

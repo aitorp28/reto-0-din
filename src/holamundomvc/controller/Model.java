@@ -17,8 +17,8 @@ public interface Model {
     /**
      * Metodo del modelo para obtencion del greeting
      * @return devuelve un String al controlador
-     * @throws exception.ConnectException Excepcion para errores en conexion
-     * @throws exception.ReadException Excepcion para errores en lectura
+     * @throws exception.ConnectException Error de conexion con base de datos
+     * @throws exception.ReadException Error de lectura con base de datos
      */
    public String getGreeting() throws ConnectException,ReadException;
 }

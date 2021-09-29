@@ -5,30 +5,26 @@
  */
 package holamundomvc.model;
 
+import holamundomvc.controller.Model;
 import org.junit.Test;
 import static org.junit.Assert.*;
-import org.junit.Ignore;
 
 /**
  *
  * @author aitor
  */
-public class ModelFileTest {
-    
-    private ModelFile file = new ModelFile();
-  
-     @Test
-    public void testModelFile() {
-       
+public class ModelFactoryTest {
+   private ModelFactory modelo = new ModelFactory();
+    public ModelFactoryTest() {
     }
-      @Test
-    public void testGetGreeting() {
+    @Test
+    public void testGetModel() {
         //Create object for testing
         
         //Call getGreeting method
-        String greeting= "Hola Mundo";
-        String testGreeting = file.getGreeting();
         
-        assertEquals("Error al cargar saludo desde el archivo",greeting,testGreeting);
+        Model model = modelo.getModel();
+        assertNotNull("Error no devuelve modelo",model);
+      
     }
 }

@@ -6,14 +6,14 @@
 package holamundomvc.controller;
 
 /**
- *Esta interfaz contiene las funciones que se implementan a la vista.
+ * Esta interfaz contiene las funciones que se implementan a la vista.
  * @author aitor
  */
 public interface View {
     
     /**
      * 
-     * @param greeting Muestra un saludo tipo texto
+     * @param greeting Muestra un saludo en funcion de un String recibido.
      */
     public  void showGreeting(String greeting);
 }

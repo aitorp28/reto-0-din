@@ -12,7 +12,12 @@ import holamundomvc.controller.View;
  * @author aitor
  */
 public class ViewText implements View{
-
+    
+    /**
+     * 
+     * @param greeting String enviado desde la clase controlador
+     * @author aitor
+     */
     @Override
     public void showGreeting(String greeting) {
             System.out.println(greeting);

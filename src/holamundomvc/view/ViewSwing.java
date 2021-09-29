@@ -15,7 +15,11 @@ import javax.swing.JOptionPane;
 public class ViewSwing implements View{
     
     
-
+    /**
+     * 
+     * @param greeting String enviado desde la clase controlador
+     * @author aitor
+     */
     @Override
     public void showGreeting(String greeting) {
         JOptionPane.showMessageDialog(null, greeting);
