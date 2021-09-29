@@ -16,12 +16,19 @@ import java.util.ResourceBundle;
  */
 public class ViewFactory {
     
-    
+        /**
+         * 
+         * Recoge el texto del archivo de seleccion de vista.
+         */
        private String type = ResourceBundle.getBundle("holamundomvc.properties.view").getString("vista");
         final private String TEXT = "Text";
         final private String SWING = "Swing";
         final private String JAVAFX = "JavaFX";
     
+      /**
+       * Decide que vista utilizar dependiendo de lo que obtenga de la configuracion.
+       * @return La implementacion de View seleccionada
+       */
     public View getView(){
         View view = null;
         switch (type){
@@ -34,7 +41,7 @@ public class ViewFactory {
             }
             break;
              case JAVAFX:{
-               // view = new ViewJavaFX(); 
+                view = new ViewJavaFX(); 
             }
             break;
         }

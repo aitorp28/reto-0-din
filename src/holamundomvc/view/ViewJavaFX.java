@@ -5,26 +5,36 @@
  */
 package holamundomvc.view;
 
-import holamundomvc.Application;
 import holamundomvc.controller.View;
+import javafx.application.Application;
 import javafx.scene.Group;
 import javafx.scene.Scene;
 import javafx.scene.control.Label;
 import javafx.stage.Stage;
+import javafx.*;
+import javafx.scene.text.Font;
 
 
 /**
- *
+ * Esta clase es implementada desde la interfaz de View.
  * @author aitor
  */
 public class ViewJavaFX extends Application implements View{
-
+    
+    /**
+     * 
+     * @param greeting String enviado desde la clase controlador
+     */
     @Override
     public void showGreeting(String greeting) {
         String[] parameters= new String [1];
         parameters[0] = greeting;
         launch(parameters);
     }
+    /**
+     * Lanza la ventana. 
+     * @param primaryStage Es la plantilla donde se genera la ventana
+     */
     public void start(Stage primaryStage) {
         Label text = new Label(getParameters().getUnnamed().get(0));
         text.setFont(new Font(40));
@@ -38,5 +48,9 @@ public class ViewJavaFX extends Application implements View{
         
     
     }
+
+  
+
+ 
     
 }

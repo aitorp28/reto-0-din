@@ -8,7 +8,7 @@ package holamundomvc.view;
 import holamundomvc.controller.View;
 
 /**
- *
+ *  Esta clase es implementada desde la interfaz de View. 
  * @author aitor
  */
 public class ViewText implements View{

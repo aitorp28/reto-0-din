@@ -14,12 +14,13 @@ import holamundomvc.view.ViewFactory;
 import jdk.nashorn.internal.runtime.regexp.JoniRegExp.Factory;
 
 /**
- *
+ *  Contiene el inicio de la aplicacion.
  * @author aitor
  */
 public class Application {
 
     /**
+     * Ejecuta la aplicacopm
      * @param args the command line arguments
      * @throws exception.ConnectException Excepcion para errores en conexion
      * @throws exception.ReadException Excepcion para errores en lectura

@@ -9,7 +9,7 @@ import holamundomvc.controller.View;
 import javax.swing.JOptionPane;
 
 /**
- * Esta clase es implementada desde la interfaz de View 
+ * Esta clase es implementada desde la interfaz de View. 
  * @author aitor
  */
 public class ViewSwing implements View{
