@@ -11,8 +11,8 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 /**
- *
- * @author aitor
+ * Compara que el modelo devuelve el saludo dede la base de datos.
+ * @author aitor perez
  */
 public class ModelBDTest {
    private ModelBD baseData = new ModelBD();
@@ -20,9 +20,7 @@ public class ModelBDTest {
     }
     @Test
     public void testGetGreeting() throws ConnectException, ReadException {
-        //Create object for testing
-        
-        //Call getGreeting method
+      
         String greeting= "Hola Mundo";
         String testGreeting = baseData.getGreeting();
         

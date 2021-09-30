@@ -10,7 +10,7 @@ import exception.*;
 
 /**
  * Este es el controlador de mi aplicacion
- * @author aitor
+ * @author aitor perez
  */
 public class Controller {
     

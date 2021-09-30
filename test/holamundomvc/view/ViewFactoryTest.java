@@ -10,8 +10,8 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 /**
- *
- * @author aitor
+ *  Comprueba si al pedir vista en realidad lo recibimos.
+ * @author aitor perez
  */
 public class ViewFactoryTest {
     private ViewFactory vista = new ViewFactory();

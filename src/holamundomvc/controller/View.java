@@ -7,7 +7,7 @@ package holamundomvc.controller;
 
 /**
  * Esta interfaz contiene las funciones que se implementan a la vista.
- * @author aitor
+ * @author aitor perez
  */
 public interface View {
     

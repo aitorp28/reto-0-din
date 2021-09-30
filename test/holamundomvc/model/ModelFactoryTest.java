@@ -10,8 +10,8 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 /**
- *
- * @author aitor
+ *  Comprueba si al pedir modelo en realidad lo recibimos.
+ * @author aitor perez
  */
 public class ModelFactoryTest {
    private ModelFactory modelo = new ModelFactory();
@@ -19,9 +19,6 @@ public class ModelFactoryTest {
     }
     @Test
     public void testGetModel() {
-        //Create object for testing
-        
-        //Call getGreeting method
         
         Model model = modelo.getModel();
         assertNotNull("Error no devuelve modelo",model);

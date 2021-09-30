@@ -10,8 +10,8 @@ import static org.junit.Assert.*;
 import org.junit.Ignore;
 
 /**
- *
- * @author aitor
+ * Compara que el modelo devuelve el saludo dede el archivo de texto. 
+ * @author aitor perez
  */
 public class ModelFileTest {
     
@@ -23,9 +23,7 @@ public class ModelFileTest {
     }
       @Test
     public void testGetGreeting() {
-        //Create object for testing
         
-        //Call getGreeting method
         String greeting= "Hola Mundo";
         String testGreeting = file.getGreeting();
         

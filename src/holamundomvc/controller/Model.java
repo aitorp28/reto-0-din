@@ -10,7 +10,7 @@ import exception.*;
 
 /**
  *  Esta es la interfaz contiene las funciones que se implementan al modelo
- * @author aitor
+ * @author aitor perez
  */
 public interface Model {
 

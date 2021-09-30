@@ -3,8 +3,8 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-/**
- * Contiene todas las excepciones customizadas de la aplicacion.
- */
 
-package exception;
+/**
+ * Contiene la aplicacion.
+ */
+package holamundomvc;

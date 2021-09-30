@@ -16,7 +16,7 @@ import java.sql.ResultSet;
 /**
  * Esta clase se implementa de Model y contiene los metodos de para recoger 
  * el texto desde una base de datos.
- * @author aitor
+ * @author aitor perez
  */
 public class ModelBD implements Model{
         

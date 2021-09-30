@@ -2,7 +2,7 @@ package exception;
 /**
  * Esta clase extiende de la clase Exception.
  * contiene metodos para las excepciones de creacion.
- * @author aitor
+ * @author aitor perez
  */
 public class CreateException extends Exception{
 

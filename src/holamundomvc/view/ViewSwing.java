@@ -10,7 +10,7 @@ import javax.swing.JOptionPane;
 
 /**
  * Esta clase es implementada desde la interfaz de View. 
- * @author aitor
+ * @author aitor perez
  */
 public class ViewSwing implements View{
     

@@ -15,7 +15,7 @@ import jdk.nashorn.internal.runtime.regexp.JoniRegExp.Factory;
 
 /**
  *  Contiene el inicio de la aplicacion.
- * @author aitor
+ * @author aitor perez
  */
 public class Application {
 

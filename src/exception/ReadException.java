@@ -2,7 +2,7 @@ package exception;
 /**
  * Esta clase extiende de la clase Exception.
  * contiene metodos para las excepciones de lectura.
- * @author aitor
+ * @author aitor perez
  */
 public class ReadException extends Exception{
 

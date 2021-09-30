@@ -5,10 +5,7 @@
  */
 package holamundomvc.controller;
 
-/**
- *
- * @author aitor
- */
+
 
 import exception.*;
 import java.sql.Connection;
@@ -21,7 +18,7 @@ import java.util.ResourceBundle;
 /**
  * Esta clase contiene los metodos para la conexion a la base de datos.
  * 
- * @author aitor
+ * @author aitor perez
  */
 public class ConnectionOpenClose {
 	
@@ -32,7 +29,7 @@ public class ConnectionOpenClose {
          * 
          * Este metodo recoge los parametros de un archivo de configuracion 
          * para conectarmos a la base de datos.
-         * @author aitor
+         * 
          */
 	public ConnectionOpenClose() {
 		configFile = ResourceBundle.getBundle("holamundomvc.properties.config");

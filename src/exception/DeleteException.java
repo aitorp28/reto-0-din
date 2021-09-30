@@ -3,7 +3,7 @@ package exception;
 /**
  * Esta clase extiende de la clase Exception.
  * contiene metodos para las excepciones de borrado.
- * @author aitor
+ * @author aitor perez
  */
 public class DeleteException extends Exception{
 

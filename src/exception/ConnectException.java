@@ -2,7 +2,7 @@ package exception;
 /**
  * Esta clase extiende de la clase Exception.
  * contiene metodos para las excepciones de conexion.
- * @author aitor
+ * @author aitor perez
  */
 public class ConnectException extends Exception{
 

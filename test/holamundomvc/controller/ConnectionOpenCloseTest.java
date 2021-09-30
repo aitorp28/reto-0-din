@@ -11,8 +11,8 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 /**
- *
- * @author aitor
+ *  Comprobamos que la conexion no es nula y conectamos con la base de datos.
+ * @author aitor perez
  */
 public class ConnectionOpenCloseTest {
     ConnectionOpenClose conexiones = new ConnectionOpenClose();

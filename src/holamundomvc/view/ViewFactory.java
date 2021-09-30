@@ -12,7 +12,7 @@ import java.util.ResourceBundle;
  * Esta es la factoria de la vista se encarga de mandar el modelo seleccionado
  * en el archivo de configuracion.
  * Esta clase es llamada por la aplicacion.
- * @author aitor
+ * @author aitor perez
  */
 public class ViewFactory {
     

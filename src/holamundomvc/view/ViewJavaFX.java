@@ -17,7 +17,7 @@ import javafx.scene.text.Font;
 
 /**
  * Esta clase es implementada desde la interfaz de View.
- * @author aitor
+ * @author aitor perez
  */
 public class ViewJavaFX extends Application implements View{
     
